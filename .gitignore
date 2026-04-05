@@ -1,0 +1,40 @@
+# ==============================================================
+# .gitignore — Full-Stack App Template
+# ==============================================================
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.settings/
+.project
+.classpath
+
+# ---- Java / Maven ----
+backend/target/
+backend-booking/target/
+*.class
+*.jar
+*.war
+
+# ---- Node / Frontend ----
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# ---- Environment ----
+.env
+*.env.local
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Docker ----
+postgres_data/
+
+# ---- Logs ----
+*.log
+logs/
