@@ -5,8 +5,8 @@ A production-ready, reusable full-stack web application template with **microser
 | Layer | Technology |
 |-------|-----------|
 | Frontend | React 18, Tailwind CSS 3, Vite 6, Axios, React Router 7 |
-| Backend (User Service) | Java 21, Spring Boot 3.4, Maven, SpringDoc OpenAPI |
-| Backend (Booking Service) | Java 21, Spring Boot 3.4, Maven, SpringDoc OpenAPI |
+| Backend (User Service) | Java 17, Spring Boot 3.4, Maven, SpringDoc OpenAPI |
+| Backend (Booking Service) | Java 17, Spring Boot 3.4, Maven, SpringDoc OpenAPI |
 | Database | PostgreSQL 16 with multi-schema isolation |
 | DevOps | Docker, Docker Compose, Nginx |
 
@@ -87,7 +87,7 @@ root/
 ### Prerequisites
 
 - **Docker** & **Docker Compose** (for containerized setup)
-- **Java 21** + **Maven** (for local backend development)
+- **Java 17+** + **Maven** (for local backend development)
 - **Node.js 20+** + **npm** (for local frontend development)
 - **PostgreSQL 16** (for local database, or use Docker)
 
